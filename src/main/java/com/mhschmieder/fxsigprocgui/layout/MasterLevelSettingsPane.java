@@ -32,8 +32,8 @@ package com.mhschmieder.fxsigprocgui.layout;
 
 import com.mhschmieder.fxgui.util.GuiUtilities;
 import com.mhschmieder.fxsigproccontrols.control.MasterLevelSettingsControls;
-import com.mhschmieder.fxsigproccontrols.model.MasterLevelSettings;
 import com.mhschmieder.fxsigproccontrols.util.SigprocLabelFactory;
+import com.mhschmieder.fxsigprocgui.model.MasterLevelSettings;
 import com.mhschmieder.jcommons.util.ClientProperties;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
@@ -73,7 +73,7 @@ public final class MasterLevelSettingsPane extends BorderPane {
     protected MasterLevelSettingsControls _masterLevelSettingsControls;
 
     // TODO: Use the Master Level Settings observables for Data Binding.
-    protected MasterLevelSettings         _masterLevelSettings;
+    protected MasterLevelSettings _masterLevelSettings;
 
     // Cache the Client Properties (System Type, Locale, etc.).
     protected ClientProperties          _clientProperties;
